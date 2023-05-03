@@ -1,0 +1,70 @@
+*{
+    font-size: 2vw;
+
+    font-family: monospace;
+
+    color: #439;
+
+    user-select: none;
+}
+
+.card{
+    width: 4.5vw;
+    aspect-ratio: 1/2;
+    border-radius: 5%;
+    background-color: #fff;
+
+    position: relative;
+
+    justify-content: center;
+
+}
+
+strong{
+    width: 25%;
+    text-align: center;
+}
+
+.image{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+
+    /*idk how but it works*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sui{
+
+    position: absolute;
+}
+
+.num{
+    position: absolute;
+
+    z-index: 10;
+}
+
+.card .num:nth-of-type(odd){
+    left: .5vw;
+    top: .25vw;
+}
+
+.card .num:nth-of-type(even){
+    right: .5vw;
+    bottom: .2vw;
+    transform: rotate(180deg)
+}
+
+.card .sui:nth-of-type(odd){
+    left: .5vw;
+    top: 2.25vw;
+}
+
+.card .sui:nth-of-type(even){
+    right: .5vw;
+    bottom: 2.2vw;
+    transform: rotate(180deg)
+}

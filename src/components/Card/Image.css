@@ -1,0 +1,15 @@
+.image > div{
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.image > div > div{
+    font-size: 1.3em;
+}
+
+.image *{
+    color: inherit;
+}
